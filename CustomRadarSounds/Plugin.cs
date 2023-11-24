@@ -20,7 +20,7 @@ namespace CustomRadarSounds
         void Begin()
         {
             HarmonyPatches.ApplyHarmonyPatches();
-            Audio = Config.Bind("Settings", "AudioClip", 0, "Pick what number clip you would like to use");
+            Audio = Config.Bind("Settings", "AudioClip", 0, "Pick what number clip you would like to use (Rejoin a lobby to apply)");
         }
     }
     public class AudioThing : MonoBehaviour
